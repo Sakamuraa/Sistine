@@ -1,0 +1,151 @@
+/* Main Styles for Temporary Voice Channel Bot Website */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c2f33;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #23272a;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #7289da;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.dev-info {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #99aab5;
+    padding: 15px;
+    border-top: 1px solid #3e4247;
+    border-bottom: 1px solid #3e4247;
+}
+
+.discord-link {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #7289da;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.discord-link:hover {
+    background-color: #5e77d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sponsors-info {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #99aab5;
+    padding: 15px;
+    border-top: 1px solid #3e4247;
+    border-bottom: 1px solid #3e4247;
+}
+
+.sponsors-info img {
+    border-radius: 5px;
+}
+
+.sponsors {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.sponsors:hover {
+    background-color: #5e77d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 1s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 0 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.stats-section {
+    background-color: #2c2f33;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.stats-section p {
+    margin: 5px 0;
+    color: #b9bbbe;
+} 

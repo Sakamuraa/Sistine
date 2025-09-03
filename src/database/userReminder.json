@@ -1,0 +1,22 @@
+{
+  "880055530721247253": {
+    "hunt": true,
+    "pray": true,
+    "owo": true,
+    "mention": {
+      "hunt": true,
+      "pray": true,
+      "owo": true
+    }
+  },
+  "1015541189891600424": {
+    "hunt": false,
+    "pray": true,
+    "owo": true,
+    "mention": {
+      "hunt": true,
+      "pray": true,
+      "owo": true
+    }
+  }
+}

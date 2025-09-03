@@ -1,0 +1,22 @@
+[
+    {
+        "case": 1,
+        "userId": "789093834054172713",
+        "type": "warn",
+        "reason": "jangan spam reaction role",
+        "moderator": "sakamuraa.",
+        "date": 1744008805,
+        "guildId": "789097277141811230",
+        "userCase": 1
+    },
+    {
+        "case": 2,
+        "userId": "1344668752494461032",
+        "type": "warn",
+        "reason": "jangan spam reaction role, silahkan ambil ulang role <#1317530463606276096> .",
+        "moderator": "sakamuraa.",
+        "date": 1744010851,
+        "guildId": "789097277141811230",
+        "userCase": 1
+    }
+]
